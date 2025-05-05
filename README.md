@@ -3,6 +3,8 @@
 This current project is a data science project- completed during my Data science course at UCLA extension - which the main goal is to be able to predict the median house value, given certain informaCon about a property.
 It can help to solve some business issue faced by estate agencies: “How to set the price of a property, whether an apartment or a house, in a way that is reasonable while also maximizing profits?”.
 
+
+
 ## Dataset 
 We will work with the following dataset: ‘housing.csv’.
 This data set appeared in a 1997 paper Ctled Sparse SpaCal Autoregressions by Pace, R. Kelley and Ronald Barry, published in the Sta$s$cs and Probability Le3ers journal. The researchers built it using the 1990 California census data. It contains one row per census block group.
@@ -27,26 +29,28 @@ following ones:
 ## Key steps
 
 The details of R codes, plots, comments are available in the R files.
+MoreOver , if interested , there is an non technical pdf project repor. 
 
 ###  EDA and Visualization
-Ran summary(), head(), tail()
-Created histograms and boxplots
-Performed correlation analysis
-Visualized boxplots grouped by ocean proximity
+Ran summary(), head(), tail() 
+Created histograms and boxplots 
+Performed correlation analysis 
+Visualized boxplots grouped by ocean proximity 
 
 ### Data Processing
-Imputed missing total_bedrooms with median
-One-hot encoded ocean_proximity
-Created mean_rooms and mean_bedrooms
-Scaled numerical features (except target and binary vars)
-Split into 70% training / 30% testing sets
+Imputed missing total_bedrooms with median 
+One-hot encoded ocean_proximity 
+Created mean_rooms and mean_bedrooms 
+Scaled numerical features (except target and binary vars) 
+Split into 70% training / 30% testing sets 
 
 ### Modeling
-Used randomForest with:
-ntree = 500
-importance = TRUE
-Trained model on predictors, tested on holdout set
+Used randomForest with: 
+ntree = 500 
+importance = TRUE 
+Trained model on predictors, tested on holdout set 
+Model's performance evaluation using RMSE 
 
 
-## Summary 
+
 
