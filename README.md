@@ -3,8 +3,8 @@
 This current project is a data science project- completed during my Data science course at UCLA extension - which the main goal is to be able to predict the median house value, given certain informaCon about a property.
 It can help to solve some business issue faced by estate agencies: “How to set the price of a property, whether an apartment or a house, in a way that is reasonable while also maximizing profits?”.
 
-![ ](https://github.com/celinexe/California_house_value/blob/main/images/california.png)
 
+<img src="[https://your-image-link.png](https://github.com/celinexe/California_house_value/blob/main/images/california.png)" width="300" height="200">
 
 
 ## Dataset 
