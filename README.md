@@ -1,6 +1,6 @@
 # Introduction 
 
-This current project is a data science project- completed during my Data science course at UCLA extension - which the main goal is to be able to predict the median house value, given certain informaCon about a property.
+This current project is a data science project- completed during my Data science course at UCLA extension - which the main goal is to be able to predict the median house value, given certain informaton about a property.
 It can help to solve some business issue faced by estate agencies: “How to set the price of a property, whether an apartment or a house, in a way that is reasonable while also maximizing profits?”.
 
 
@@ -43,7 +43,7 @@ Visualized boxplots grouped by ocean proximity
 Imputed missing total_bedrooms with median <br>
 One-hot encoded ocean_proximity <br>
 Created mean_rooms and mean_bedrooms <br>
-Scaled numerical features (except target and binary vars) <br>
+Scaled numerical features-Normalization (except target and binary vars) <br>
 Split into 70% training / 30% testing sets 
 
 ### Modeling
@@ -118,6 +118,14 @@ the model predictive accuracy. The features 'longitude' and 'latitude’ also im
 
 By examining "IncNodePurity," we observe that the feature median_income has the greatest impact on node purity. This variable is highly significant for the tree.
 
+The model's performance was evaluated using Root Mean Squared Error (RMSE):
+Initial Model (All Features, 500 Trees):
+•Training RMSE: 49,396.36
+•Testing RMSE: 49,372.00
+Reduced Model (Top 4 Features, 500 Trees):
+•Training RMSE: 51,537.84
+•Testing RMSE: 50,735.52
+
 
 
 # Summary 
@@ -126,9 +134,9 @@ By examining "IncNodePurity," we observe that the feature median_income has the 
 This analysis highlights the key factors that influence house prices. Among these, median income emerged as the strongest predictor, emphasizing its importance in determining property values. Other significant features, such as housing median age and geographic factors like longitude and laCtude, also reflect trends seen in real estate markets.
 
 ### Insights for Stakeholders:
-Median income acts as a solid indicator of housing demand, making it a crucial factor for seong property prices and idenCfying high-value areas.
-Geographic factors like proximity to desirable locaCons play a key role in determining house prices. ProperCes close to the ocean or in affluent neighborhoods tend to be priced higher.
-The simplified model, based on just four key features, shows that reliable predicCons can sCll be made. This makes the model easier to interpret and implement, without losing much accuracy.
+Median income acts as a solid indicator of housing demand, making it a crucial factor for seong property prices and identifying high-value areas.
+Geographic factors like proximity to desirable locations play a key role in determining house prices. Properties close to the ocean or in affluent neighborhoods tend to be priced higher.
+The simplified model, based on just four key features, shows that reliable predictions can still be made. This makes the model easier to interpret and implement, without losing much accuracy.
 With an error margin of about $49,000–$51,000, the model provides valuable insights for real estate businesses, investors, and policymakers to make informed decisions about property pricing, investment opportuniCes, and urban development.
 
 
