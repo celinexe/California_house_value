@@ -93,7 +93,7 @@ The following features: median_income, total_bedrooms, population, and total_roo
 Here We have a can deduce that the house that are located less than 1h or near from the ocean belongs to the household who tend to have a highest median income. 
 
 1.3 Boxplot for the feature 'median_home_value' with respect to the factor variable ocean_proximity.  
-<img src="https://github.com/celinexe/California_house_value/blob/main/images/oceanprox_mhb.png" width="600" height="400">
+<img src="https://github.com/celinexe/California_house_value/blob/main/images/oceanprox_mhv.png" width="600" height="400">
 
 
 Here, we observe that the most expensive houses are mostly located on islands, followed by those near the ocean (within 1 hour). However, the boxplot for INLAND shows a significant number of outliers. This could indicate specific neighborhoods where house prices are potentially overpriced.
@@ -107,7 +107,9 @@ Here, we observe that the most expensive houses are mostly located on islands, f
 
    
 
-3. feature importance
+3. Feature importance
+
+
  <img src="https://github.com/celinexe/California_house_value/blob/main/images/feature_importance.png" width="600" height="400">
 
 We observe that on the first graph (%Inc MSE Increasing in mean squarred error)
