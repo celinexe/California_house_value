@@ -30,8 +30,8 @@ following ones:
 
 ## Key steps
 
-The details of R codes, plots, comments are available in the ![R file](https://github.com/celinexe/California_house_value/blob/main/class_project.R)
-Moreover, if interested, there is an non-technical pdf ![project report](https://github.com/celinexe/California_house_value/blob/main/quick_report_california_housing.pdf) you can download. 
+The details of R codes, plots, comments are available in the [R file](https://github.com/celinexe/California_house_value/blob/main/class_project.R)
+Moreover, if interested, there is an non-technical pdf [project report](https://github.com/celinexe/California_house_value/blob/main/quick_report_california_housing.pdf) you can download. 
 
 ### 1. EDA and Visualization
 Ran summary(), head(), tail() <br>
@@ -61,7 +61,7 @@ I will build another model using 4 features thats has the highest contribution a
 
 
 # Quick Overview 
-More details available in project report in a pdf file you can ![download]("https://github.com/celinexe/California_house_value/blob/main/quick_report_california_housing.pdf")
+More details available in project report in a pdf file you can [download](https://github.com/celinexe/California_house_value/blob/main/quick_report_california_housing.pdf)
 
 
 1. Interesting Exploratory, Bareplot visualization and interpretation
