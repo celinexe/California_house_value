@@ -65,31 +65,45 @@ More details available in project report
 
 1. Interesting Exploratory, Bareplot visualization and interpretation
 
-1.1 General Bareplot 
+1.1 General  Histogram 
 
-[ ]! 
+![](https://github.com/celinexe/California_house_value/blob/main/images/histogramme.png)
+
+Here is look on the histogram of different features, 
+We can see for some feature such as the median income, housing median age. They follow a normal distribution. 
+
+
+1.2 Boxplot
+![](https://github.com/celinexe/California_house_value/blob/main/images/barplot.png)
+
 Immediately, by examining the boxplots of these different features, some appear to have unusual distributions.
 The following features: median_income, total_bedrooms, population, and total_rooms show a significant number of values outside the whiskers, indicating potential outliers. But the number of points outside the whiskers seems a little too significant to be considered potential outliers.
 
 
 
-1.2 
+1.2 Boxplot for the feature 'median_income' and median_home_value with respect to the factor variable ocean_proximity.  
 
-[ ]! ( oproximation ) Here We have a can deduce that the house that are located less than 1h or near from the ocean belongs to the household who tend to have a highest median income. 
+![](https://github.com/celinexe/California_house_value/blob/main/images/oceanProximity.png) 
 
-[ ]! ( oprox mhv) 
+Here We have a can deduce that the house that are located less than 1h or near from the ocean belongs to the household who tend to have a highest median income. 
+
+1.3 Boxplot for the feature 'median_home_value' with respect to the factor variable ocean_proximity.  
+
+![](https://github.com/celinexe/California_house_value/blob/main/images/oceanprox_mhb.png) 
+
 Here, we observe that the most expensive houses are mostly located on islands, followed by those near the ocean (within 1 hour). However, the boxplot for INLAND shows a significant number of outliers. This could indicate specific neighborhoods where house prices are potentially overpriced.
 
 
-2. correlation
+2. Correlation map
 
+![](https://github.com/celinexe/California_house_value/blob/main/images/correlation.png) 
 
   By examining this correlation map, we can observe that the darkest colors represent the strongest correlations between features. First, we notice that only one feature, median_income, is highly correlated with our target value. This feature will contribute the most to our model’s predictions. Additionally, we observe that total_rooms, total_bedrooms, population, and households are strongly correlated with each other, which makes sense given their inherent relationships.
 
    
 
 3. feature importance
- [ ]! 
+![](https://github.com/celinexe/California_house_value/blob/main/images/feature_importance.png)  
 
 We observe that on the first graph (%Inc MSE Increasing in mean squarred error)
 the feature 'median_income' and 'housing_median_age' contribute the most to 
