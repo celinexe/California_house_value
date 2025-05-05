@@ -32,23 +32,23 @@ The details of R codes, plots, comments are available in the R files.
 MoreOver , if interested , there is an non technical pdf project repor. 
 
 ###  EDA and Visualization
-Ran summary(), head(), tail() 
-Created histograms and boxplots 
-Performed correlation analysis 
+Ran summary(), head(), tail() <br>
+Created histograms and boxplots <br>
+Performed correlation analysis <br>
 Visualized boxplots grouped by ocean proximity 
 
 ### Data Processing
-Imputed missing total_bedrooms with median 
-One-hot encoded ocean_proximity 
-Created mean_rooms and mean_bedrooms 
-Scaled numerical features (except target and binary vars) 
+Imputed missing total_bedrooms with median <br>
+One-hot encoded ocean_proximity <br>
+Created mean_rooms and mean_bedrooms <br>
+Scaled numerical features (except target and binary vars) <br>
 Split into 70% training / 30% testing sets 
 
 ### Modeling
-Used randomForest with: 
-ntree = 500 
-importance = TRUE 
-Trained model on predictors, tested on holdout set 
+Used randomForest with: <br>
+ntree = 500 <br>
+importance = TRUE <br>
+Trained model on predictors, tested on holdout set <br>
 Model's performance evaluation using RMSE 
 
 
