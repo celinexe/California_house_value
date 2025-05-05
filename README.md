@@ -33,7 +33,7 @@ following ones:
 The details of R codes, plots, comments are available in the [R file](https://github.com/celinexe/California_house_value/blob/main/class_project.R)
 Moreover, if interested, there is an non-technical pdf [project report](https://github.com/celinexe/California_house_value/blob/main/quick_report_california_housing.pdf) you can download. 
 
-### 1. EDA and Visualization
+### EDA and Visualization
 Ran summary(), head(), tail() <br>
 Created histograms and boxplots <br>
 Performed correlation analysis <br>
