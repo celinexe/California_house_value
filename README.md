@@ -4,7 +4,7 @@ This current project is a data science project- completed during my Data science
 It can help to solve some business issue faced by estate agencies: “How to set the price of a property, whether an apartment or a house, in a way that is reasonable while also maximizing profits?”.
 
 
-<img src="[https://your-image-link.png](https://github.com/celinexe/California_house_value/blob/main/images/california.png)" width="300" height="200">
+<img src="https://github.com/celinexe/California_house_value/blob/main/images/california.png" width="600" height="400">
 
 
 ## Dataset 
